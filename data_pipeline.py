@@ -515,4 +515,3 @@ if __name__ == "__main__":
     out = pipeline.run_batch(sources, save_outputs=True)
     logger.info("Run complete. Metadata summary:")
     print(json.dumps(out, indent=2))
-
